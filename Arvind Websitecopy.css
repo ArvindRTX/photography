@@ -1,0 +1,250 @@
+body {
+    background-color: #232323;
+    color: #d9d7ce;
+    font-family: sans-serif;
+}
+
+header div img {
+    width: 1em;
+    height: 1em;
+    padding-top: 0em;
+    padding-right: 0.5em;
+    vertical-align: middle;
+}
+
+nav img {
+    width: 16em;
+    height: 4em;
+    padding: 0.5em 0 0 0.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #232323;
+    display: flex;
+    align-items: center;
+}
+
+nav li a {
+    display: block;
+    color: #d9d7ce;
+    text-align: center;
+    padding: 1.75em 1em 1.5em;
+    margin-left: 1em;
+    text-decoration: none;
+    font-size: 1.125em;
+}
+
+nav li a:hover {
+    color: #0967e7;
+}
+
+#navsplit {
+    color: rgb(255, 255, 255);
+    margin-top: -0.1em;
+}
+
+button {
+    border: none;
+    padding: 1em;
+    background-color: #ff0084;
+    color: #d9d7ce;
+    font-weight: bold;
+    margin-right: 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.marquee {
+    width: 78.9em;
+    height: 3.5em;
+    background-color: #d9d7ce;
+    color: #232323;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-size: 1.5em;
+}
+.marquee p {
+    display: inline-block;
+    animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
+
+article {
+    width: 100%;
+    display: flex;
+    padding-top: 2.4375em;
+}
+
+article div.typo {
+    width: 55%;
+    padding-left: 2.4375em;
+}
+
+article div.typo h1 {
+    letter-spacing: -6px;
+    text-transform: uppercase;
+    margin-top: 0.75em;
+    font-family: proxima-nova, sans-serif;
+    font-size: 8.2rem;
+    font-weight: 700;
+    line-height: 0.8;
+}
+article div.gallery {
+    width: 45%;
+    height: 52rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-img {
+    width: 21.2625em;
+    height: 37.8em;
+    border-radius: 1em;
+    position: absolute;
+    margin-left: 9em;
+}
+
+.gallery-img:hover {
+    border: 0.2em solid #d9d7ce;
+}
+
+#one {
+    top: 3em;
+    left: 2em;
+    transform: rotate(15deg);
+}
+
+#two {
+    top: 9em;
+    left: 12em;
+    transform: rotate(15deg);
+    opacity: 0.8;
+}
+#two:hover{
+    z-index: 1;
+    opacity: 1;
+}
+.myphoto{
+    margin-left: 2.4375em;
+    margin-top: 1.1875em;
+    width: 34.375em;
+    float: left;
+}
+#cam{
+    border-radius: 0.75em;
+}
+#me{
+    text-transform: uppercase;
+    margin-top: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 0.8;
+    color: #ff0084;
+}
+.Aboutme{
+    width:54em;
+    float: left;
+    
+}
+.Aboutme p{
+    font-size: 2em;
+    font-family: monospace;
+    text-align: justify;
+}
+#lists{
+    list-style-type: none;
+}
+.Links{
+    width: 23em;
+    height: 30.5em;
+    float: right;
+    margin-top: 1.8125em;
+    margin-right: 1.8em;
+    background: linear-gradient(to bottom, #9e9d9a, #232323);
+    border-radius: 0.75em;
+}
+.Links:hover{
+    background: linear-gradient(to bottom,  #232323, #9e9d9a,);
+}
+div ul h2{
+    padding-left:1.3em;
+    font-size: 3em;
+    color:#232323;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div ul li{
+    font-size: 1.1em;
+    line-height: 2em;
+}
+.container2{
+    height: 35.375em;
+    width: 100%;
+}
+#works{
+    width: 100%;
+    height:55em;
+    margin-left: 2.4375em;
+}
+#works h1{
+    text-transform: uppercase;
+    margin-top: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 0.8;
+    color: #ffffff;
+    
+}
+
+#works p{
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+#small_coconut{
+    width: 20%;
+    height:20%;
+    border-radius: 1em;
+    margin-left: 8.4em ;
+    float: left;
+}
+#small_boy, #skull, #plants{
+    width: 20%;
+    height:20%;
+    border-radius: 1em;
+    margin-left: 2em;
+}
+#small_coconut:hover{
+    border: 0.3em solid  #d9d7ce;
+}
+#small_boy:hover{
+    border: 0.3em solid  #d9d7ce;
+}
+#skull:hover{
+    border: 0.3em solid  #d9d7ce;
+}
+#plants:hover{
+    border: 0.3em solid  #d9d7ce;
+}
+.software{
+    height:55em;
+    width: 100%;
+    margin-left: 2.4375em;
+}
+.software h1{
+    text-transform: uppercase;
+    margin-top: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 0.8;
+    color: #ff0084;
+}
