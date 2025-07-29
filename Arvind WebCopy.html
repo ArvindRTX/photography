@@ -12,23 +12,31 @@
     <header>
         <div class="marquee">
             <p> 
-                <img src="images/Arvind logo only image.png"> <b>Upgrade everything you do With Arvind Pro </b> 
-                <img src="images/Arvind logo only image.png"> Unlock Unlimited storage, ad-free Browse, advanced stats, exclusive discounts, and more. 
-                <img src="images/Arvind logo only image.png"> <b>Upgrade everything you do With Arvind Pro </b> 
-                <img src="images/Arvind logo only image.png"> Unlock Unlimited storage, ad-free Browse, advanced stats, exclusive discounts, and more.
+                <img src="images/Arvind logo only image.png"> <b> This site is created and maintained by Aravinth Ramesh </b> 
+                <img src="images/Arvind logo only image.png"> Using HTML and CSS only. 
+                <img src="images/Arvind logo only image.png"> <b> This site is created and maintained by Aravinth Ramesh </b> 
+                <img src="images/Arvind logo only image.png"> Using HTML and CSS only.
             </p>
         </div>
     </header>
 
-    <nav>
+    <nav id="navbar">
         <ul>
             <li><img src="images/Arvind logo csr.png"></li>
-            <li><a href="">FEATURES</a></li>
-            <li><a href="">ARVINDPRO</a></li>
-            <li><a href="">THE APPS</a></li>
-            <li><a href="">COMMUNITY</a></li>
-            <li><a href="">COMPANY</a></li>
+            <li><a href="#container2">ABOUT ME</a></li>
+            <li><a href="#works">GALLERY</a></li>
+            <li><a href="#software">SOFTWARES</a></li>
+            <li><a href="#container2">SOCIALS</a></li>
+            <li><div class="dropdown">
+                    <a href="">DETAILS</a>
+                <div class="dropdown-content">
+                <a href="#footer">Contact</a>
+                <a href="#footer">Socials</a>
+                <a href="#footer">Quick Links</a>
+            </div></li>
+            
             <li style="margin-left: auto;"><a href=""><i class="fa-solid fa-magnifying-glass"></i> Search</a></li>
+            
             <li><a href="">LOGIN</a></li>
             <li><button>SIGN UP</button></li>
         </ul>
@@ -46,10 +54,13 @@
                 <img src="images/Photo 1 for gallery.jpeg" id="two" class="gallery-img">
                 <img src="images/photo 2 fro gallery.jpeg" id="one" class="gallery-img">
             </div>
+            
         </article>
-
+        <div class="topbutton">
+                <a href="#navbar"><button id="top">Back to Top</button></a>
+            </div>
         <hr class="articlesplit">
-     <div class="container2">   
+     <div id="container2">   
         <div class="myphoto">
             <img src="images/square_myphoto.png" id="cam">
         </div>
@@ -69,8 +80,8 @@
     </div> 
     <hr>
     <div id="works">
-        <h1>MY WORKS</h1>
-        <p>In my career I have authored numerous original pieces. I have given some of them as a show case for you to enjoy. </p>
+            <h1>MY WORKS</h1>
+            <p>In my career I have authored numerous original pieces. I have given some of them as a show case for you to enjoy. </p>
         <div id="carousel">
             <img src="images\Photo 3 for Gallery.jpeg" id="small_coconut">
             <img src="images\Small boy.png" id="small_boy">
@@ -79,9 +90,74 @@
         </div>
     </div>
     <hr>
-    <div class="software">
-        <h1>Softwares I Know: </h1>
+    <div id="software">
+            <h1>Softwares I Know: </h1>
+            <p>These are the softwares I have used in my career. I have used them to create some of the best works of my life. </p>
+        <div class="softwarepng-container">
+            <div class="softwarepng">
+                <a target="_blank" href="images\aftereffects.png">
+                    <img src="images\aftereffects.png" id="aftereffects"></a>
+                        <div class="softwarepng-text">
+                            <p>2 years of experince in After effetcs.</p>
+                        </div>
+            </div>
+            <div class="softwarepng">
+                <a target="_blank" href="images\premierepro.png">
+                    <img src="images\premierepro.png" id="premierepro"></a>
+                        <div class="softwarepng-text">
+                            <p>3 years experience in pre wedding edits. </p>
+                        </div>
+            </div>
+            <div class="softwarepng">
+                <a target="_blank" href="images\photoshop.png">
+                    <img src="images\photoshop.png" id="photoshop"></a>
+                        <div class="softwarepng-text">
+                            <p>Basic Photoshop Knowledge.</p>
+                        </div>
+            </div>
+            <div class="softwarepng">
+                <a target="_blank" href="images\blender.png">
+                    <img src="images\blender.png" id="blender"></a>
+                        <div class="softwarepng-text">
+                            <p>Basic Modelling and Rigging.</p>
+                        </div>
+            </div>
+        </div>
     </div>
-    </main>
+    <hr>
+    
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <img src="images/Arvind logo csr.png" alt="Arvind Logo" class="footer-logo">
+                <p>Capturing life's moments and transforming them into timeless visual stories. Based in Tenkasi, Tamilnadu.</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#navbar">Home</a></li>
+                    <li><a href="#container2">About Me</a></li>
+                    <li><a href="#works">Gallery</a></li>
+                    <li><a href="#software">Softwares</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Contact & Socials</h3>
+                <ul class="footer-contact">
+                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:aravinthramesh627@gmail.com">aravinthramesh627@gmail.com</a></li>
+                    <li><i class="fa-solid fa-phone"></i> <a href="tel:+918438650107">+91 84386 50107</a></li>
+                    <li><i class="fa-brands fa-instagram"></i> <a href="https://instagram.com/aravinth.ramesh_" target="_blank">@aravinth.ramesh_</a></li>
+                    <li><i class="fa-brands fa-youtube"></i> <a href="#" target="_blank">Arvind's Click</a></li> </ul>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Aravinth Ramesh. All Rights Reserved. | Website created with HTML & CSS.</p>
+        </div>
+    </footer>
+
+</main>
 </body>
 </html>
